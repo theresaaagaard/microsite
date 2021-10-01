@@ -6,3 +6,11 @@
 img {
   max-width: 100%;
 }
+
+/* #varianter h2 {
+  display: inline-block;
+} */
+
+#varianter {
+  width: 100%;
+}
