@@ -1,16 +1,111 @@
 /* fonte */
 
-@import url("https://fonts.googleapis.com/css2?family=Average+Sans&family=Playfair+Display:wght@700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Average+Sans&family=Playfair+Display:wght@400;700&display=swap");
 /* nav styling */
+
+:root {
+  --primary-font: "Average Sans", sans-serif;
+  --secondary-font: "Playfair Display", serif;
+  --main-text-color: #ffffff;
+
+  --white-space: 1rem;
+
+  --bg-color: #808080;
+  --orange-color: #fd6f19;
+  --link-color: #aa0004;
+  --link-hover-color: #1a4900;
+  --color-4: #00115a;
+  --color-5: #000;
+}
+
+html {
+  font-size: 100%;
+  font-family: var(--primary-font);
+}
+
+main {
+  color: #ffffff;
+}
+
 img {
   max-width: 100%;
+  height: auto;
 }
 
-/* #varianter h2 {
-  display: inline-block;
-} */
+main,
+footer {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: calc(2 * var(--white-space));
+}
 
-#varianter {
+.full-width {
+  background: var(--bg-color);
+  font-family: var(--secondary-font);
+  color: white;
   width: 100%;
 }
+
+h1 {
+  font-family: var(--secondary-font);
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-family: var(--secondary-font);
+  font-size: 2em;
+  font-weight: bold;
+  margin: var(--white-space) 0;
+  text-align: center;
+}
+
+h3 {
+  font-family: var(--primary-font);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+h4 {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+nav {
+  font-family: var(--primary-font);
+}
+
+main {
+  padding: calc(2 * var(--white-space));
+  /* background: var(--orange-color); */
+  background-color: #323430;
+}
+
+section {
+  margin-bottom: calc(4 * var(--white-space));
+  margin-bottom: calc(2 * var(--white-space));
+}
+
+.section-heading {
+  font-size: 1.3rem;
+  color: #777;
+  margin: 0.5rem 0;
+}
+
+#varianter div .row img {
+  align-items: center;
+}
+
+/* #varianter,
+#ingredienser {
+  background: var(--color-5);
+}
+
+#earth {
+  background: var(--link-hover-color);
+}
+
+#vidstedu {
+  /* background: var(--color-5); */
+/* } */
