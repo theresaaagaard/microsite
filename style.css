@@ -25,6 +25,8 @@ html {
 
 main {
   color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 img {
