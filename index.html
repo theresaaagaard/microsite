@@ -23,7 +23,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
-              <img src="img/logo.svg" alt="" width="60" height="40" />
+              <img src="img/logooo.svg" alt="" width="60" height="40" />
             </a>
             <a class="navbar-brand" href="#"></a>
             <button
@@ -86,43 +86,80 @@
       <section id="hero-img" class="container-fluid">
         <div class="row">
           <div class="col-12 mb-5 col-md-12 mb-4">
-            <img src="/img/splash.png" alt="splash" />
+            <img src="/img/placeholder.jpg" alt="splash" />
 
             <!-- <h1>Purity Protein Gummies</h1> -->
           </div>
         </div>
       </section>
 
-      <!-- SEKTION 1 - VARIANTER -->
+      <!-- SEKTION 1 - VIDSTE DU -->
+      <section id="vidstedu">
+        <div class="row">
+          <div class="col-12 mb-2 p-5 col-md-12 mb-5 p-4">
+            <h2>Vidste du...</h2>
+            <p>
+              ...at 70 % ønsker at skære ned for kødforbruget? <br /><br />
+              ...at 13 % af gen Z ønsker madvarer tilsat flere vitaminer,
+              proteiner og mineraler?<br /><br />
+              ...at vi generelt snacker mere nu til dags? <br />
+              <br />Med Purity Protein Gummies får du lov til at snacke dig
+              vejen til dit DAGLIGE proteinbehov, og så er det helt uden nogen
+              former for kødindtag!
+            </p>
+          </div>
+          <div class="col-12 mb-5 col-md-12 mb-5">
+            <img class="img-fluid" src="img/placeholder.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- SEKTION 2 - VARIANTER -->
       <section
         id="varianter"
-        class="d-flex justify-content-evenly container-fluid mb-5"
-      >
+        class="d-flex justify-content-evenly container-fluid mb-5" data-color="#697f71">
+      
         <div class="row">
           <div class="col-12 mb-3 col-md-12 mb-3">
             <h2>Varianter</h2>
           </div>
 
           <div class="col-12 mb-4 col-md-4 mb-3">
-            <img class="img-fluid blue" src="img/jar-blue.png" alt="" />
-            <h3 class="col-12 mb-3 col-4">Blåbær</h3>
+            <img
+              
+              class="img-fluid blue"
+              src="img/jar-blue.png"
+              alt=""
+            />
+            <h3 class="col-12 mb-3 col-4"></h3>
           </div>
 
           <div class="col-12 mb-4 col-md-4 mb-3">
-            <img class="img-fluid orange" src="img/jar-orange.png" alt="" />
-            <h3 class="col-12 mb-3 col-4">Appelsin</h3>
+            <img
+           
+              class="img-fluid orange"
+              src="img/jar-orange.png"
+              alt=""
+            />
+            <h3 class="col-12 mb-3 col-4"></h3>
           </div>
 
           <div class="col-12 mb-4 col-md-4 mb-3">
-            <img class="img-fluid red" src="img/jar-red.png" alt="" />
-            <h3 class="col-12 mb-3 col-4">Jordbær</h3>
+            <img
+              
+              class="img-fluid red"
+              src="img/jar-red.png"
+              alt=""
+            />
+            <h3 class="col-12 mb-3 col-4"></h3>
           </div>
         </div>
       </section>
 
-      <!-- SEKTION 2 - INGREDIENSER -->
+      <!-- SEKTION 3 - INGREDIENSER -->
 
-      <section
+      <section data-parallax
+      data-speed="-0.2"
         id="ingredienser"
         class="d-flex justify-content-evenly container-fluid mt-5 mb-5"
       >
@@ -150,29 +187,15 @@
         </div>
       </section>
 
-      <!-- SEKTION 3 - BÆREDYGTIGHED -->
+      <!-- SEKTION 4 - BÆREDYGTIGHED -->
 
-      <section id="baeredygtighed" class="container-fluid mb-5 p-4">
-        <div id="vidstedu">
-          <div class="row">
-            <div class="col-12 mb-2 p-5 col-md-6 mb-5 p-4">
-              <h2>Vidste du...</h2>
-              <p>
-                ...at 70 % ønsker at skære ned for kødforbruget? <br /><br />
-                ...at 13 % af gen Z ønsker madvarer tilsat flere vitaminer,
-                proteiner og mineraler?<br /><br />
-                ...at vi generelt snacker mere nu til dags? <br />
-                <br />Med Purity Protein Gummies får du lov til at snacke dig
-                vejen til dit DAGLIGE proteinbehov, og så er det helt uden nogen
-                former for kødindtag!
-              </p>
-            </div>
-            <div class="col-12 mb-5 col-md-6 mb-5">
-              <img class="img-fluid" src="img/placeholder.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-
+      <section
+        data-parallax
+        data-speed="-0.2"
+        id="baeredygtighed"
+        class="container-fluid mb-5 p-4"
+        data-color="#b57462"
+      >
         <div id="earth">
           <div class="row">
             <div class="col-12 mb-5 p-4 col-md-6 mb-5 p-4">
@@ -202,7 +225,7 @@
         </div>
       </section>
 
-      <!-- SEKTION 4 - FIND OS -->
+      <!-- SEKTION 5 - FIND OS -->
       <section id="findos" class="container-fluid mb-5 p-5">
         <div class="row">
           <div class="col-12 mb-5">
@@ -254,7 +277,8 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
