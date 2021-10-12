@@ -3,6 +3,8 @@ gsap.registerPlugin(ScrollTrigger);
 const sections = document.querySelectorAll("section");
 const colorSections = [...document.querySelectorAll("[data-color]")];
 
+
+//BAGGRUNDSFARVE PÅ SEKTION VED SCROLL
 colorSections.forEach((colorSection) => {
 const col = colorSection.dataset.color;
   ScrollTrigger.create({
@@ -23,13 +25,14 @@ gsap.from(vidstedu, {
     y: 100,
     duration: 2.5,
     scrollTrigger:{
-        trigger: "h2"
+        trigger: "h2",
     }
   })
 
   const varianter = document.querySelector('#varianter')
   const imgs = varianter.querySelectorAll('img')
 
+  //EFFEKT PÅ HVER BØTTE UNDER VARIANTER
 gsap.from(imgs, {
     y: 100,
     stagger: .2,
@@ -53,17 +56,17 @@ sections.forEach((section) => {
   
   
 
-//   gsap
-//     .timeline({
-//       scrollTrigger: {
-//         trigger: section,
-//         start: "50% 50%",
-//         end: "+=200",
-//         scrub: true,
-//         // pin: true,
-//         // markers: true,
-//       },
-//     })
+  gsap
+    .timeline({
+      scrollTrigger: {
+        trigger: imgs,
+        start: "50% 50%",
+        end: "+=200",
+        scrub: true,
+        // pin: true,
+        // markers: true,
+      },
+    })
    
 //     .from(blue, {
 //       y: 100,
