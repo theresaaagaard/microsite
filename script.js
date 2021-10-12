@@ -4,7 +4,7 @@ const sections = document.querySelectorAll("section");
 const colorSections = [...document.querySelectorAll("[data-color]")];
 
 
-//BAGGRUNDSFARVE PÅ SEKTION VED SCROLL
+//BAGGRUNDSFARVE PÅ SEKTIONER VED SCROLL
 colorSections.forEach((colorSection) => {
 const col = colorSection.dataset.color;
   ScrollTrigger.create({
@@ -17,22 +17,44 @@ const col = colorSection.dataset.color;
   });
 });
 
-
+//EFFEKT PÅ SEKTION 1
 const vidstedu = document.querySelector("#vidstedu");
+const info = document.querySelector(".info");
 
 gsap.from(vidstedu, {
     opacity: 0,
     y: 100,
     duration: 2.5,
     scrollTrigger:{
-        trigger: "h2",
+        trigger: "#vidstedu",
+        start: "top 50%",
+        end: "+=300",
+        y: 200,
+        scrub: true,
+ 
+    }
+  })
+  console.log("hej");
+
+  gsap.from(info, {
+    y: 100,
+    duration: 2,
+    scrollTrigger:{
+        opacity: 0,
+        trigger: ".info",
+        start: "50% 50%",
+        end: "+=400",
+        y: 200,
+        scrub: true,
     }
   })
 
+
+    //EFFEKT PÅ HVER BØTTE UNDER VARIANTER
   const varianter = document.querySelector('#varianter')
   const imgs = varianter.querySelectorAll('img')
 
-  //EFFEKT PÅ HVER BØTTE UNDER VARIANTER
+
 gsap.from(imgs, {
     y: 100,
     stagger: .2,

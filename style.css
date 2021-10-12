@@ -45,10 +45,13 @@ footer {
 }
 
 .full-width {
-  background: var(--bg-color);
   font-family: var(--secondary-font);
   color: white;
   width: 100%;
+}
+
+#hero-img {
+  background: var(--bg-color);
 }
 
 h1 {
