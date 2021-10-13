@@ -122,6 +122,11 @@ section {
   background-color: #efb4d8;
 }
 
+#mission img {
+  width: 50em;
+  height: auto;
+}
+
 #vidstedu {
   background-color: #cce59b;
 }
@@ -160,37 +165,59 @@ width: 30em;
 }
 
 .panel-default>.panel-heading{
-  background-color: var(--color-5);
-  border-color: var(--color-5);
+  background-color: var(--link-hover-color);
+  border-color: var(--link-hover-color);
 }
 
 .panel-default{
-  border-color: var(--color-5);
+  border-color: var(--link-hover-color);
 }
 
 .panel-body{
-  background-color: var(--color-5);
-  border-color: var(--color-5);
+  background-color: var(--link-hover-color);
+  border-color: var(--link-hover-color);
 }
 
 #ingredienser {
   background-color: #fc8c00;
 }
 
+
+#findos {
+  background-color: var(--bg-color);
+}
 #findos img {
   width: 15em;
-  height: auto;
-  clip-path: circle(50% at 50% 50%);
-  border-radius: 1em;
-  border-color: #000;
+  height: 15em;
+  /* clip-path: circle(50% at 50% 50%); */
+  object-fit: cover;
 }
+
+.nopadding {
+  padding: 0px; !important;}
 
 .hjerte {
  width: 40em;
   height: auto;
 }
 
+#varianter h1{
+  color: #fff;
+}
+#vidstedu h1 {
+  color: var(--link-hover-color);
+}
+
 .some img {
   width: 3em;
   height: auto;
+}
+
+.fitness {
+  width: 100%;
+  height: auto;
+}
+
+#tilmeld {
+  background-color: var(--link-color);
 }
