@@ -21,19 +21,19 @@ const col = colorSection.dataset.color;
 const vidstedu = document.querySelector("#vidstedu");
 const info = document.querySelector(".info");
 
-gsap.from(vidstedu, {
-    opacity: 0,
-    y: 100,
-    duration: 2.5,
-    scrollTrigger:{
-        trigger: "#vidstedu",
-        start: "top 50%",
-        end: "+=300",
-        y: 200,
-        scrub: true,
+// gsap.from(vidstedu, {
+//     opacity: 0,
+//     y: 100,
+//     duration: 2.5,
+//     scrollTrigger:{
+//         trigger: "#vidstedu",
+//         start: "top 50%",
+//         end: "+=300",
+//         y: 200,
+//         scrub: true,
  
-    }
-  })
+//     }
+//   })
   
 
   gsap.from(info, {

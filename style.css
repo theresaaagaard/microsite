@@ -10,13 +10,13 @@
 
   --white-space: 1rem;
 
-  --bg-color: #ddcebb;
-  --link-color: #b57462;
-  --link-hover-color: #8a4741;
-  --color-4: #ddb07e;
-  --color-5: #697f71;
-  --color-6: #698da8;
-  --color-7: #e08362;
+  --bg-color: #efb4d8;
+  --link-color: #cce59b;
+  --link-hover-color: #f24a4b;
+  --color-4: #65a7b6;
+  --color-5: #fad502;
+  --color-6: #fc8c00;
+
 }
 
 html {
@@ -26,7 +26,7 @@ html {
 
 main {
   color: #000;
-  /* background-color: var(--bg-color); */
+ 
   margin: 0;
   padding: 0;
 }
@@ -90,11 +90,9 @@ nav {
   background-color: var(--bg-color);
 }
 
-main {
-  padding: calc(2 * var(--white-space));
-}
+
 footer {
-  background-color: #697f71;
+  background-color: var(--bg-color);
   color: var(--link-hover-color);
 }
 
@@ -117,12 +115,29 @@ section {
   align-items: center;
 }
 
+#hero-img {
+  background-color: var(--bg-color);
+}
+#mission {
+  background-color: #efb4d8;
+}
+
+#vidstedu {
+  background-color: #cce59b;
+}
+#varianter {
+  background-color: #65a7b6;
+}
+
 #ingredienser, #varianter {
   min-height: 100vh;
   display: grid;
   place-content: center;
 }
 
+#earth {
+  background-color: var(--bg-color);
+}
 
 .earth {
 width: 30em;
@@ -158,9 +173,8 @@ width: 30em;
   border-color: var(--color-5);
 }
 
-.frugter{
-  width: 30em;
-  height: auto;
+#ingredienser {
+  background-color: #fc8c00;
 }
 
 #findos img {
