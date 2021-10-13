@@ -34,7 +34,7 @@ gsap.from(vidstedu, {
  
     }
   })
-  console.log("hej");
+  
 
   gsap.from(info, {
     y: 100,
@@ -69,9 +69,10 @@ gsap.from(imgs, {
 })
 
 sections.forEach((section) => {
-  //   const h2 = section.querySelector("h2");
-  //   const h3 = section.querySelector("h3");
-  //   const p = section.querySelectorAll("p");
+    // const h1 = section.querySelector("h1");
+    // const h2 = section.querySelector("h2");
+    // const h3 = section.querySelector("h3");
+    // const p = section.querySelectorAll("p");
 //   const blue = section.querySelector(".blue");
 //   const orange = section.querySelector(".orange");
 //   const red = section.querySelector(".red");
@@ -105,22 +106,27 @@ sections.forEach((section) => {
 //       duration: 12,
 //       opacity: 0,
 //     });
-  // .from(h2, {
-  //   y: 100,
-  //   duration: 4,
-  //   opacity: 0,
-  // })
-  // .from(h3, {
-  //   y: 100,
-  //   duration: 4,
-  //   opacity: 0,
-  // })
-  // .from(p, {
-  //   y: 100,
-  //   duration: 4,
-  //   opacity: 0,
-  //   stagger: 1,
-  // });
+// .from(h1, {
+//     y: 100,
+//     duration: 4,
+//     opacity: 0,
+//   })  
+// .from(h2, {
+//     y: 100,
+//     duration: 4,
+//     opacity: 0,
+//   })
+//   .from(h3, {
+//     y: 100,
+//     duration: 4,
+//     opacity: 0,
+//   })
+//   .from(p, {
+//     y: 100,
+//     duration: 4,
+//     opacity: 0,
+//     stagger: 1,
+//   });
 });
 
 //PARALLAX EFFEKT

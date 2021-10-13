@@ -50,9 +50,7 @@ footer {
   width: 100%;
 }
 
-#hero-img {
-  background: var(--bg-color);
-}
+
 
 h1 {
   font-family: var(--secondary-font);
@@ -88,12 +86,20 @@ nav {
   font-family: var(--primary-font);
 }
 
+.bg-light{
+  background-color: var(--bg-color);
+}
+
 main {
   padding: calc(2 * var(--white-space));
 }
 footer {
-  background-color: black;
+  background-color: #697f71;
   color: var(--link-hover-color);
+}
+
+footer p {
+  color: #000;
 }
 
 section {
@@ -117,3 +123,60 @@ section {
   place-content: center;
 }
 
+
+.earth {
+width: 30em;
+  height: auto;
+}
+
+.centered-form{
+	margin-top: 60px;
+}
+
+
+.btn-info {
+  border-radius: 100px 1px;
+  background-color: #fff;
+  border-color: #fff;
+  color:#000
+}
+.btn-info:hover {
+  background-color: var(--color-6);
+}
+
+.panel-default>.panel-heading{
+  background-color: var(--color-5);
+  border-color: var(--color-5);
+}
+
+.panel-default{
+  border-color: var(--color-5);
+}
+
+.panel-body{
+  background-color: var(--color-5);
+  border-color: var(--color-5);
+}
+
+.frugter{
+  width: 30em;
+  height: auto;
+}
+
+#findos img {
+  width: 15em;
+  height: auto;
+  clip-path: circle(50% at 50% 50%);
+  border-radius: 1em;
+  border-color: #000;
+}
+
+.hjerte {
+ width: 40em;
+  height: auto;
+}
+
+.some img {
+  width: 3em;
+  height: auto;
+}

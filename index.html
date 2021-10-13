@@ -12,8 +12,14 @@
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="style.css" />
+
     <!--link:css-->
+
+   
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
     <title>Purity Protein Gummies</title>
   </head>
@@ -22,10 +28,10 @@
       <header class="row">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href=>
               <img src="img/logooo.svg" alt="" width="60" height="40" />
             </a>
-            <a class="navbar-brand" href="#"></a>
+       
             <button
               class="navbar-toggler"
               type="button"
@@ -43,7 +49,7 @@
                   <a class="nav-link" href="#varianter">Varianter</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#ingredienser">Ingredienser</a>
+                  <a class="nav-link" href="#ingredienser">Mission</a>
                 </li>
 
                 <li class="nav-item dropdown">
@@ -82,25 +88,35 @@
     <!-- HEADER .container SLUT -->
 
     <!-- SPLASH BILLEDE -->
-    <main>
-      <section id="hero-img" class="container-fluid" data-color="#b57462">
+    <main class="container-fluid">
+      <section id="hero-img" class="container-fluid" data-color="#ddcebb">
         <div class="row">
-          <div class="col-12 mb-5 col-md-12 mb-4">
-            <img src="/img/placeholder.jpg" alt="splash" />
+          <div class="col-12 col-md-12">
+            <img src="/img/splashhej_1@4x-8.png" alt="splash" />
 
             <!-- <h1>Purity Protein Gummies</h1> -->
           </div>
         </div>
       </section>
 
+      <section id="mission">
+        <div class="col-12 mt-2 p-5 col-md-12 p-5 text-center">
+        <h1>Mission</h1> <br>
+        <p>Purity Protein Gummies' mission er at hjælpe dig til at trives i egen krop samt skåne planeten. <br>
+        Vi tror på, at vi selv er med til at skabe en bedre fremtid for planeten, så hvorfor ikke starte med os selv? <br></p>
+      <div class="earth rounded mx-auto d-block">
+        <img src="img/earth.jpg" alt="">
+      </div>
+    </div>
+  </section>
       <!-- SEKTION 1 - VIDSTE DU -->
-      <section id="vidstedu" class="container-fluid">
+      <section id="vidstedu" class="container-fluid mt-5" data-color="#ddcebb">
         <div class="row">
-          <div class="info1 col-12 mb-2 p-5 offset-md-2 col-md-8 mb-5 p-4">
+          <div class="rounded mx-auto d-block info1 col-12 mb-2 p-5 col-md-8 mb-5 p-4">
             <img src="img/infographics.png" alt="">
           </div>
-         <div class="info col-12 mb-3 col-md-6 offset-md-3">
-           <img src="img/infografik2.png" alt="">
+         <div class="rounded mx-auto d-block hjerte col-12 mb-3 col-md-12 text-center">
+           <img src="img/infoheart@4x-8.png" alt="">
          </div>
         
         </div>
@@ -113,7 +129,7 @@
       
         <div class="row">
           <div class="col-12 mt-5 col-md-12">
-            <h2>Varianter</h2>
+            <h1>Varianter</h1>
           </div>
 
           <div class="col-12 mb-4 col-md-4 mb-3">
@@ -155,41 +171,42 @@
         class="d-flex justify-content-evenly container-fluid mt-5 mb-5"
       >
         <div class="row">
-          <div class="col-12 mt-2 p-5 col-md-6 p-5">
-            <h2>
-              <br />
-              Ingredienser
-            </h2>
-            <p>
-              Vores proteinvingummier består udelukkende af planteproteiner.
-              <br />
-              Ingredienserne som bidrager til at få dit daglige proteinindtag
-              kommer fra ærte- og hestebønneisolater. <br />
-              Derudover er der tilsat smag fra vores favoritfrugter og bær, så
-              du ikke skal gå på kompromis med smagen! Sukkerindholdet er på sit
-              laveste, så du kan snacke, som du vil. <br />
-              Vi anbefaler to stk. tre gange om dagen, så du får det fulde
-              udbytte. <br />Happy snacking!
-            </p>
-          </div>
-          <div class="col-12 mb-5 col-md-6">
+          
+
+        <div class="col-12 mb-5 col-md-12 text-center">
+          <h1>
+            <br />
+            Ingredienser
+          </h1>
+          <p>
+            Vores proteinvingummier består udelukkende af planteproteiner.
+            <br />
+            Ingredienserne som bidrager til at få dit daglige proteinindtag
+            kommer fra ærte- og hestebønneisolater. <br />
+            Derudover er der tilsat smag fra vores favoritfrugter og bær, så
+            du ikke skal gå på kompromis med smagen! <br> Sukkerindholdet er på sit
+            laveste, så du kan snacke, som du vil. <br />
+            Vi anbefaler to stk. tre gange om dagen, så du får det fulde
+            udbytte. <br />Happy snacking!
+          </p>
+          <div class="frugter rounded mx-auto d-block">
             <img src="img/ingredienser.png" alt="" />
           </div>
+        </div>
+          
         </div>
       </section>
 
       <!-- SEKTION 4 - BÆREDYGTIGHED -->
 
       <section
-        data-parallax
-        data-speed="-0.2"
         id="baeredygtighed"
         class="container-fluid mb-5 p-4"
-        data-color="#ddb07e"
+        data-color="#e08362"
       >
         <div id="earth">
           <div class="row">
-            <div class="col-12 mb-5 p-4 col-md-6 mb-5 p-4">
+            <div class="col-12 mb-5 p-4 col-md-6 mb-5 p-4 text-center">
               <h2>Earth Day</h2>
               <h3><b> Deltag i dette års kajaksejling</b></h3>
               <br>
@@ -198,23 +215,64 @@
                 <br>Idéen er, at vi sammen styrker musklerne samtidig med vi frelser planeten for giftstoffer. <br>
                 Som tak vil alle deltagere få uddelt én bøtte Purity Protein Gummies efter indsamlingen. <br> Vi håber lige præcis DU har lyst til at gøre en forskel! <br> <br>Tilmelding foregår via mail: purityprotein@gmail.com
               </p>
-              <br>
-              <img src="img/earth2-8.png" alt="" />
             </div>
 
-            <div class="col-12 mb-5 p-4 col-md-6">
-              <h2>Vind 1 års forbrug af vores Protein Gummies!</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                pariatur veniam eaque corporis. Magnam ex enim, quaerat atque,
-                soluta quas dolore nostrum earum quasi ab dolor, necessitatibus
-                doloremque minus. Ex?
-              </p>
-              <img src="img/placeholder.jpg" alt="" />
+            
+              
+              
+<!-- TILMELDING TIL NYHEDSBREV FORMULAR -->
+
+  <div class="col-12 p-4 col-sm-8 col-md-6 p-4">
+    <h2>Vind 1 års forbrug af vores Protein Gummies!</h2>
+   <h3> <b>Tilmeld dig til vores nyhedsbrev og vær med i lodtrækningen om et helt års forbrug af vores proteinvingummier!</b>  </h3> <br>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Tilmelding til nyhedsbrev</h3>
+       </div>
+       <div class="panel-body">
+        <form role="form">
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <div class="form-group">
+                <input type="text" name="first_name" id="first_name" class="form-control input-sm" placeholder="Fornavn">
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <div class="form-group">
+                <input type="text" name="last_name" id="last_name" class="form-control input-sm" placeholder="Efternavn">
+              </div>
             </div>
           </div>
+
+          <div class="row">
+          <div class="form-group">
+            <input type="email" name="email" id="adresse" class="form-control input-sm" placeholder="Adresse"> <br>
+            <input type="email" name="email" id="email" class="form-control input-sm" placeholder="Postnummer & by">
+          </div>
         </div>
-      </section>
+
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <div class="form-group">
+                <input type="password" name="password" id="password" class="form-control input-sm" placeholder="E-mail">
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <div class="form-group">
+                <input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-sm" placeholder="Bekræft e-mail">
+              </div>
+            </div>
+          </div>
+          
+          <input type="submit" value="Tilmeld" class="btn btn-info btn-block">
+        
+        </form>
+      </div>
+    </div>
+</div>
+</div>
+</div>
+</section>
 
       <!-- SEKTION 5 - FIND OS -->
       <section id="findos" class="container-fluid mb-5 p-5">
@@ -241,10 +299,9 @@
     <!-- FOOTER -->
     <footer class="d-flex justify-content-evenly container-fluid">
       <div class="row">
-        <div class="col-12 mb-3 col-md-4 mb-3">
-          <img src="/img/100x100.jpg" alt="" />
-          <img src="/img/100x100.jpg" alt="" />
-          <img src="/img/100x100.jpg" alt="" />
+        <div class="some col-12 mb-3 col-md-4 mb-3">
+         <a href="https://www.instagram.com/casemmd2021/"> <img class="p-1" src="/img/instaicon.png" alt="" /> </a>
+          <img class="p-1" src="/img/fbicon.png" alt="" />
         </div>
 
         <div class="col-12 mb-3 col-md-4 mb-3">
