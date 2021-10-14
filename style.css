@@ -41,7 +41,7 @@ main,
 footer {
   max-width: 1800px;
   margin: 0 auto;
-  padding: calc(2 * var(--white-space));
+ 
 }
 
 .full-width {
@@ -63,7 +63,7 @@ h2 {
   font-family: var(--secondary-font);
   font-size: 2em;
   font-weight: bold;
-  margin: var(--white-space) 0;
+  
   text-align: center;
 }
 
@@ -92,18 +92,14 @@ nav {
 
 
 footer {
-  background-color: var(--bg-color);
-  color: var(--link-hover-color);
+  background-color: var(--link-color);
+
 }
 
 footer p {
   color: #000;
 }
 
-section {
-  margin-bottom: calc(4 * var(--white-space));
-  margin-bottom: calc(2 * var(--white-space));
-}
 
 .section-heading {
   font-size: 1.3rem;
@@ -119,10 +115,10 @@ section {
   background-color: var(--bg-color);
 }
 #mission {
-  background-color: #efb4d8;
+  background-color: #65a7b6;
 }
 
-#mission img {
+#mission .love img {
   width: 50em;
   height: auto;
 }
@@ -131,7 +127,7 @@ section {
   background-color: #cce59b;
 }
 #varianter {
-  background-color: #65a7b6;
+  background-color: var(--bg-color)
 }
 
 #ingredienser, #varianter {
@@ -189,12 +185,16 @@ width: 30em;
 #findos img {
   width: 15em;
   height: 15em;
-  /* clip-path: circle(50% at 50% 50%); */
+  clip-path: circle(50% at 50% 50%);
   object-fit: cover;
 }
 
 .nopadding {
-  padding: 0px; !important;}
+  padding: 0px !important;}
+
+  .nomargin {
+    margin: 0 !important;
+  }
 
 .hjerte {
  width: 40em;
@@ -220,4 +220,18 @@ width: 30em;
 
 #tilmeld {
   background-color: var(--link-color);
+}
+
+.container-fluid {
+  padding: 0 !important; 
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+header .row {
+  margin: 0;
+  padding: 0;
 }

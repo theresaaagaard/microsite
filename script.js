@@ -18,22 +18,22 @@ const col = colorSection.dataset.color;
 });
 
 //EFFEKT PÅ SEKTION 1
-const vidstedu = document.querySelector("#vidstedu");
+const ingredienser = document.querySelector("#ingredienser .img");
 const info = document.querySelector(".info");
 
-// gsap.from(vidstedu, {
-//     opacity: 0,
-//     y: 100,
-//     duration: 2.5,
-//     scrollTrigger:{
-//         trigger: "#vidstedu",
-//         start: "top 50%",
-//         end: "+=300",
-//         y: 200,
-//         scrub: true,
+gsap.from(ingredienser, {
+    opacity: 0,
+    y: 100,
+    duration: 2.5,
+    scrollTrigger:{
+        trigger: "ingredienser",
+        start: "top 50%",
+        end: "+=300",
+        y: 200,
+        scrub: true,
  
-//     }
-//   })
+    }
+  })
   
 
   gsap.from(info, {
@@ -64,7 +64,7 @@ gsap.from(imgs, {
         end:"+=300",
         pin: true,
         scrub: true,
-        markers: true
+        // markers: true
     }
 })
 
