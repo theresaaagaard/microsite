@@ -19,6 +19,10 @@
 
 }
 
+.nav-link{
+  color: #000;
+}
+
 html {
   font-size: 100%;
   font-family: var(--primary-font);
@@ -26,10 +30,10 @@ html {
 
 main {
   color: #000;
- 
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
+
 
 img {
   max-width: 100%;
@@ -39,8 +43,7 @@ img {
 
 main,
 footer {
-  max-width: 1800px;
-  margin: 0 auto;
+  max-width: 2000px;
  
 }
 
@@ -86,36 +89,56 @@ nav {
   font-family: var(--primary-font);
 }
 
+/* .navbar {
+  position: sticky;
+top: 0;
+z-index: 1000;
+} */
+
 .bg-light{
-  background-color: var(--bg-color);
+  --bs-bg-opacity: -1;
 }
-
-
+  
 footer {
   background-color: var(--link-color);
 
 }
+/* .navbar-brand {
+  margin-left: 5px;
+} */
 
+#navbarNavDropdown {
+  font-size: 1.1rem;
+}
+
+#navbarNavDropdown p {
+  color: #000;
+}
 footer p {
   color: #000;
 }
 
 
-.section-heading {
+/* .section-heading {
   font-size: 1.3rem;
   color: #777;
   margin: 0.5rem 0;
-}
+} */
 
 #varianter div .row img {
   align-items: center;
 }
 
-#hero-img {
-  background-color: var(--bg-color);
+#hero-img{
+  margin: 0 !important;
+  padding: 0 !important;
 }
 #mission {
-  background-color: #65a7b6;
+background-color: #65a7b6;
+} 
+
+#mission h1 {
+  color: #000;
 }
 
 #mission .love img {
@@ -124,7 +147,7 @@ footer p {
 }
 
 #vidstedu {
-  background-color: #cce59b;
+background-color: #cce59b;
 }
 #varianter {
   background-color: var(--bg-color)
@@ -157,12 +180,21 @@ width: 30em;
   color:#000
 }
 .btn-info:hover {
-  background-color: var(--color-6);
+  background-color: var(--link-hover-color);
 }
 
 .panel-default>.panel-heading{
   background-color: var(--link-hover-color);
   border-color: var(--link-hover-color);
+}
+
+.navbar-toggler{
+  color: #000;
+}
+
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse{
+  margin-left: 220px;
 }
 
 .panel-default{
@@ -174,9 +206,9 @@ width: 30em;
   border-color: var(--link-hover-color);
 }
 
-#ingredienser {
+/* #ingredienser {
   background-color: #fc8c00;
-}
+} */
 
 
 #findos {
@@ -187,6 +219,13 @@ width: 30em;
   height: 15em;
   clip-path: circle(50% at 50% 50%);
   object-fit: cover;
+}
+
+#findos h2 {
+  color: #fff;
+}
+#earth h2, #earth h3, #earth p {
+  color: #fff;
 }
 
 .nopadding {
@@ -204,9 +243,10 @@ width: 30em;
 #varianter h1{
   color: #fff;
 }
-#vidstedu h1 {
+#vidstedu h1{
   color: var(--link-hover-color);
 }
+
 
 .some img {
   width: 3em;
