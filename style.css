@@ -119,8 +119,14 @@ nav a {
   position: sticky;
 top: 0;
 z-index: 1000;
+margin: 0 !important;
+padding: 0 !important;
 }
 
+
+.navbar navbar-expand-xl navbar-light bg-light{
+  margin: 0;
+}
 .bg-light{
   --bs-bg-opacity: -1;
 }
