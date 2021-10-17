@@ -24,16 +24,7 @@
 
 }
 
-/* 
-.fixed-bg{
-background-image: url("img/fitness.jpg");
-min-height: 500px;
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-width: 50%;
-} */
+
 
 .nav-link{
   color: #000;
@@ -62,6 +53,7 @@ footer {
   max-width: 2000px;
  
 }
+
 
 .full-width {
   font-family: var(--secondary-font);
@@ -183,7 +175,8 @@ background-color: #cce59b;
 }
 
 #earth {
-  background-color: var(--bg-color);
+  background-color: var(--color-4);
+
 }
 
 .earth {
@@ -193,6 +186,9 @@ width: 30em;
 
 .centered-form{
 	margin-top: 60px;
+}
+.infografik img {
+  width: 50%;
 }
 
 
@@ -237,13 +233,19 @@ width: 30em;
   height: 15em;
   clip-path: circle(50% at 50% 50%);
   object-fit: cover;
+  
+}
+
+#findos img:hover{
+  -webkit-filter: blur(2px);
+    filter: blur(2px);
 }
 
 #findos h2 {
   color: #fff;
 }
 #earth h2, #earth h3, #earth p {
-  color: #fff;
+  color: #000;
 }
 
 .nopadding {
